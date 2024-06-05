@@ -22,12 +22,13 @@ public class googleSearch extends Base {
 		String searchKey = "Canberra";
 		WebElement searchBox = driver.findElement(By.xpath("//textarea[@id='APjFqb']"));
 		searchBox.sendKeys(searchKey);
-
 		List<WebElement> list = driver.findElements(By.xpath("//ul[@role='listbox']//li"));
 		System.out.println("Total number of suggestions: " + list.size());
-
 		for (int i = 0; i < list.size(); i++) {
 			System.out.println(list.get(i).getText());
+		}
+
+		for (int i = 0; i < list.size(); i++) {
 			if (list.get(i).getText().contains(searchKey)) {
 				list.get(i).click();
 				break;

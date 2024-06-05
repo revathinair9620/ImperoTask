@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-05T12:48:40 AEST" name="Default suite" finished-at="2024-06-05T12:48:51 AEST" duration-ms="10371">
+  <suite started-at="2024-06-05T14:38:30 AEST" name="Default suite" finished-at="2024-06-05T14:38:37 AEST" duration-ms="7694">
     <groups>
     </groups>
-    <test started-at="2024-06-05T12:48:40 AEST" name="Default test" finished-at="2024-06-05T12:48:51 AEST" duration-ms="10371">
+    <test started-at="2024-06-05T14:38:30 AEST" name="Default test" finished-at="2024-06-05T14:38:37 AEST" duration-ms="7694">
       <class name="com.google.test.googleSearch">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.google.test.googleSearch@35d019a3]" started-at="2024-06-05T12:48:40 AEST" name="setUp" finished-at="2024-06-05T12:48:45 AEST" duration-ms="4951" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.google.test.googleSearch@35d019a3]" started-at="2024-06-05T14:38:30 AEST" name="setUp" finished-at="2024-06-05T14:38:33 AEST" duration-ms="3592" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="searchvalue()[pri:0, instance:com.google.test.googleSearch@35d019a3]" started-at="2024-06-05T12:48:45 AEST" name="searchvalue" finished-at="2024-06-05T12:48:50 AEST" duration-ms="4943" status="PASS">
+        <test-method signature="searchvalue()[pri:0, instance:com.google.test.googleSearch@35d019a3]" started-at="2024-06-05T14:38:33 AEST" name="searchvalue" finished-at="2024-06-05T14:38:37 AEST" duration-ms="3723" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchvalue -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.google.test.googleSearch@35d019a3]" started-at="2024-06-05T12:48:50 AEST" name="tearDown" finished-at="2024-06-05T12:48:51 AEST" duration-ms="432" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.google.test.googleSearch@35d019a3]" started-at="2024-06-05T14:38:37 AEST" name="tearDown" finished-at="2024-06-05T14:38:37 AEST" duration-ms="336" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
