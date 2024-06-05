@@ -36,6 +36,7 @@ public class googleSearch extends Base {
 
 		WebElement img = driver.findElement(By.xpath("//div[contains(text(),'Images')]"));
 		img.click();
+		
 
 	}
 
