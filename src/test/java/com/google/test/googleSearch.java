@@ -33,10 +33,8 @@ public class googleSearch extends Base {
 				break;
 			}
 		}
-
-		WebElement img = driver.findElement(By.xpath("//div[contains(text(),'Images')]"));
-		img.click();
-		
+		WebElement imgtab = driver.findElement(By.xpath("//div[contains(text(),'Images')]"));
+		imgtab.click();
 
 	}
 
